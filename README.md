@@ -6,4 +6,4 @@ my understanding.
 the functionality of this is sets of Jvascript and html elements.
 
 Deploy URL
-you can find the diployed application on my GitHub here git@github.com:Fridahemma/Fridahemma.git
+you can find the diployed application on my GitHub herehttps://fridahemma.github.io/Password_Generator/

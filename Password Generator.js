@@ -83,14 +83,14 @@ generateBtn.addEventListener("click", writePassword);
 // Write password to the #password input
 function writePassword() {
     var correctPrompts = getPrompts();
+    var passwordText = document.querySelector("#password");
     // Either true or false
 
     if (correctPrompts) {
         var newPassword = generatePassword();
-        var passwordText = document.querySelector("#password");
         passwordText.value = password;
     } else {
-        passwordTest.value = "";
+        passwordText.value = "";
     }
 }
 
